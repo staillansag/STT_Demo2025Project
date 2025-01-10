@@ -7,3 +7,58 @@ packages:
   gitUrl: https://github.com/staillansag
   gitUsername: staillansag
   gitBranch: main
+- name: WmJDBCAdapter
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: softwareag
+services:
+- serviceName: project.stt_demo2025.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:rds_sqlserver
+  packages:
+  - name: STT_Demo2025Project
+    version: "1.0"
+configurationVariables:
+  ? artConnection.STT_Demo2025Project.project.stt_demo2025.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.rds_sqlserver.connectionSettings.keyStore
+  : ""
+  ? artConnection.STT_Demo2025Project.project.stt_demo2025.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.rds_sqlserver.connectionSettings.user
+  : admin
+  ? artConnection.STT_Demo2025Project.project.stt_demo2025.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.rds_sqlserver.connectionSettings.serverName
+  : sqlserver.cfqp5yv86ho3.eu-central-1.rds.amazonaws.com
+  ? artConnection.STT_Demo2025Project.project.stt_demo2025.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.rds_sqlserver.connectionSettings.dbType
+  : MSSQL
+  ? artConnection.STT_Demo2025Project.project.stt_demo2025.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.rds_sqlserver.connectionEnabled
+  : "false"
+  ? artConnection.STT_Demo2025Project.project.stt_demo2025.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.rds_sqlserver.connectionManagerSettings.poolIncrementSize
+  : "1"
+  ? artConnection.STT_Demo2025Project.project.stt_demo2025.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.rds_sqlserver.connectionManagerSettings.minimumPoolSize
+  : "1"
+  ? artConnection.STT_Demo2025Project.project.stt_demo2025.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.rds_sqlserver.connectionSettings.driverType
+  : Progress® DataDirect®
+  ? artConnection.STT_Demo2025Project.project.stt_demo2025.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.rds_sqlserver.connectionSettings.password
+  : "{AES}IqKUucZp4GhO/mxxYbV1Jw=="
+  ? artConnection.STT_Demo2025Project.project.stt_demo2025.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.rds_sqlserver.connectionSettings.otherProperties
+  : loginTimeout=60;
+  ? artConnection.STT_Demo2025Project.project.stt_demo2025.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.rds_sqlserver.connectionManagerSettings.maximumPoolSize
+  : "10"
+  ? artConnection.STT_Demo2025Project.project.stt_demo2025.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.rds_sqlserver.connectionSettings.portNumber
+  : "1433"
+  ? artConnection.STT_Demo2025Project.project.stt_demo2025.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.rds_sqlserver.connectionSettings.transactionType
+  : NO_TRANSACTION
+  ? artConnection.STT_Demo2025Project.project.stt_demo2025.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.rds_sqlserver.connectionManagerSettings.startupBackoffSecs
+  : "10"
+  ? artConnection.STT_Demo2025Project.project.stt_demo2025.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.rds_sqlserver.connectionManagerSettings.poolable
+  : "false"
+  ? artConnection.STT_Demo2025Project.project.stt_demo2025.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.rds_sqlserver.connectionManagerSettings.heartBeatInterval
+  : "0"
+  ? artConnection.STT_Demo2025Project.project.stt_demo2025.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.rds_sqlserver.connectionSettings.databaseName
+  : sandbox
+  ? artConnection.STT_Demo2025Project.project.stt_demo2025.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.rds_sqlserver.connectionManagerSettings.startupRetryCount
+  : "0"
+  ? artConnection.STT_Demo2025Project.project.stt_demo2025.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.rds_sqlserver.connectionSettings.datasourceClass
+  : com.wm.dd.jdbcx.sqlserver.SQLServerDataSource
+  ? artConnection.STT_Demo2025Project.project.stt_demo2025.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.rds_sqlserver.connectionSettings.networkProtocol
+  : ""
+  ? artConnection.STT_Demo2025Project.project.stt_demo2025.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.rds_sqlserver.connectionManagerSettings.blockingTimeout
+  : "1000"
+  ? artConnection.STT_Demo2025Project.project.stt_demo2025.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.rds_sqlserver.connectionManagerSettings.expireTimeout
+  : "1000"
+  ? artConnection.STT_Demo2025Project.project.stt_demo2025.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.rds_sqlserver.connectionSettings.trustStore
+  : ""
