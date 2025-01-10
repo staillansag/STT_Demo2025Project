@@ -19,6 +19,10 @@ services:
   packages:
   - name: STT_Demo2025Project
     version: "1.0"
+- serviceName: pub.flow:clearPipeline
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2015
 configurationVariables:
   ? artConnection.STT_Demo2025Project.project.stt_demo2025.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.rds_sqlserver.connectionSettings.keyStore
   : ""
