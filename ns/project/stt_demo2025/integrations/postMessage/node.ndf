@@ -80,7 +80,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">stephane.tailland@ibm.com</value>
-    <value name="lastModifiedDate">1736518219309</value>
+    <value name="lastModifiedDate">1736518227176</value>
     <value name="displayName">postMessage</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -174,8 +174,18 @@
         <null name="outputMapSet"/>
       </record>
       <record name="/2" javaclass="com.wm.util.Values">
-        <value name="itemType">ALL</value>
-        <value name="name">NEW</value>
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">Flow</value>
+          <value name="groupName">flow</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">clearPipeline</value>
+          <value name="serviceName">pub.flow:clearPipeline</value>
+          <value name="transformerSupport">false</value>
+        </record>
       </record>
     </record>
   </record>
